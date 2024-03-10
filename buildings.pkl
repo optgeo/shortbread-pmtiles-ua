@@ -1,0 +1,10 @@
+extends "fill.pkl"
+
+id = "buildings"
+`source-layer` = "buildings"
+paint {
+  `fill-color` = "#e0d1d9"
+  `fill-opacity` {
+    stops = new Listing { new Listing {14 0} new Listing {15 1} }
+  }
+}

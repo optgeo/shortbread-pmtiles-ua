@@ -1,0 +1,7 @@
+extends "fill.pkl"
+
+id = "ocean"
+`source-layer` = "ocean"
+paint {
+  `fill-color` = "#cbd2df"
+}

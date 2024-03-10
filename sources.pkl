@@ -1,0 +1,9 @@
+module sources
+
+ua {
+  type = "vector"
+  tiles = new Listing {
+    "pmtiles://data/ua.pmtiles"
+  }
+}
+

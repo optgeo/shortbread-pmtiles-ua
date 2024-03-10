@@ -1,0 +1,10 @@
+extends "fill.pkl"
+
+id = "water_polygons"
+`source-layer` = "water_polygons"
+paint {
+  `fill-color` = "#cbd2df"
+  `fill-opacity` {
+    stops = new Listing { new Listing {4 0} new Listing {6 1} }
+  }
+}
